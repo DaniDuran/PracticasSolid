@@ -20,3 +20,16 @@ C:\WorkSpace\repos\ms-regis-users\ms-regis.domain\obj\Debug\net7.0\ms-regis.doma
 C:\WorkSpace\repos\ms-regis-users\ms-regis.domain\obj\Debug\net7.0\refint\ms-regis.domain.dll
 C:\WorkSpace\repos\ms-regis-users\ms-regis.domain\obj\Debug\net7.0\ms-regis.domain.pdb
 C:\WorkSpace\repos\ms-regis-users\ms-regis.domain\obj\Debug\net7.0\ref\ms-regis.domain.dll
+C:\WorkSpace\PracticaSolid\ms-regis-users\ms-regis.domain\bin\Debug\net7.0\ms-regis.domain.deps.json
+C:\WorkSpace\PracticaSolid\ms-regis-users\ms-regis.domain\bin\Debug\net7.0\ms-regis.domain.dll
+C:\WorkSpace\PracticaSolid\ms-regis-users\ms-regis.domain\bin\Debug\net7.0\ms-regis.domain.pdb
+C:\WorkSpace\PracticaSolid\ms-regis-users\ms-regis.domain\obj\Debug\net7.0\ms-regis.domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkSpace\PracticaSolid\ms-regis-users\ms-regis.domain\obj\Debug\net7.0\ms-regis.domain.AssemblyInfoInputs.cache
+C:\WorkSpace\PracticaSolid\ms-regis-users\ms-regis.domain\obj\Debug\net7.0\ms-regis.domain.AssemblyInfo.cs
+C:\WorkSpace\PracticaSolid\ms-regis-users\ms-regis.domain\obj\Debug\net7.0\ms-regis.domain.csproj.CoreCompileInputs.cache
+C:\WorkSpace\PracticaSolid\ms-regis-users\ms-regis.domain\obj\Debug\net7.0\ms-regis.domain.sourcelink.json
+C:\WorkSpace\PracticaSolid\ms-regis-users\ms-regis.domain\obj\Debug\net7.0\ms-regis.domain.dll
+C:\WorkSpace\PracticaSolid\ms-regis-users\ms-regis.domain\obj\Debug\net7.0\refint\ms-regis.domain.dll
+C:\WorkSpace\PracticaSolid\ms-regis-users\ms-regis.domain\obj\Debug\net7.0\ms-regis.domain.pdb
+C:\WorkSpace\PracticaSolid\ms-regis-users\ms-regis.domain\obj\Debug\net7.0\ref\ms-regis.domain.dll
+C:\WorkSpace\PracticaSolid\ms-regis-users\ms-regis.domain\obj\Debug\net7.0\ms-regis.domain.csproj.AssemblyReference.cache

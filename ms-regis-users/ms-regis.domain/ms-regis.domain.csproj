@@ -1,14 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
-    <RootNamespace>ms_regis.domain</RootNamespace>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <Folder Include="domain\" />
-  </ItemGroup>
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<RootNamespace>ms_regis.domain</RootNamespace>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+	
+	<ItemGroup>
+		<PackageReference Include="FluentValidation" Version="11.8.1" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<Folder Include="domain\" />
+	</ItemGroup>
 
 </Project>
