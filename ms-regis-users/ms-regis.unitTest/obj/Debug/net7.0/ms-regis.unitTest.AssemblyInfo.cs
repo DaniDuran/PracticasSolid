@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ms-regis.unitTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+797090de0d3aaa949842b9cd5863b24a20cd78a6")]
 [assembly: System.Reflection.AssemblyProductAttribute("ms-regis.unitTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ms-regis.unitTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

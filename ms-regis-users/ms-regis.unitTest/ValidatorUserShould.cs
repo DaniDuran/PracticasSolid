@@ -36,45 +36,100 @@ namespace ms_regis.unitTest
         public void ValidateEmail_Ok()
         {
             //args
-            string email = "daniels.geek@gmail.com";
+            
+            var user = new User
+            {
+                Id = 1,
+                Name = "Daniel",
+                LastName = "Duran",
+                Email = "daniels.geek@gmail.com",
+                Password = "Dani123*"
+            };
 
             //Act
             BuildRequiredComponents(out ValidatorUserServices services);
-            var result = services.ValidateEmail(email);
+            var result = services.Validate(user);
 
             //Assert
-            Assert.True(result);
+            Assert.True(result.IsValid);
             _outputHelper.WriteLine(JsonConvert.SerializeObject(result));
 
+        }
+
+        [Fact]
+        public void ValidateEmail_Fail()
+        {
+            //args
+
+            var user = new User
+            {
+                Id = 1,
+                Name = "Daniel",
+                LastName = "Duran",
+                Email = "daniels.geekgmail.com",
+                Password = "Da23"
+            };
+
+            //Act
+            BuildRequiredComponents(out ValidatorUserServices services);
+            var result = services.Validate(user);
+
+            //Assert
+            Assert.False(result.IsValid);
+            foreach (var item in result.Errors)
+                _outputHelper.WriteLine(item.ErrorMessage);                                        
         }
         [Fact]
         public void ValidateEmail_NOk()
         {
             //args
-            string email = "daniels.geekgmail.com";
+            var user = new User
+            {
+                Id = 1,
+                Name = "Daniel",
+                LastName = "Duran",
+                Email = "daniels.geekgmail.com",
+                Password = "Dani.1234"
+            };
+            
 
             //Act
             BuildRequiredComponents(out ValidatorUserServices services);
-            var result = services.ValidateEmail(email);
+            var result = services.Validate(user);
 
             //Assert
-            Assert.True(!result);
-            _outputHelper.WriteLine(JsonConvert.SerializeObject(result));
+            Assert.False(result.IsValid);
+            //_outputHelper.WriteLine(JsonConvert.SerializeObject(result));
+            foreach (var item in result.Errors)
+            {
+                _outputHelper.WriteLine(item.ErrorCode);
+                _outputHelper.WriteLine(item.ErrorMessage);                
+            }
+                
+                
 
         }
         [Fact]
         public void ValidatePassword_Ok()
         {
             //args
-            string password = "Dani.123";
+            var user = new User
+            {
+                Id = 1,
+                Name = "Daniel",
+                LastName = "Duran",
+                Email = "daniels.geek@gmail.com",
+                Password = "Dani.1234"
+            };            
 
             //Act
             BuildRequiredComponents(out ValidatorUserServices services);
-            var result = services.ValidatePassword(password);
+            var result = services.Validate(user);
 
             //Assert
-            Assert.True(result);
+            Assert.True(result.IsValid);
             _outputHelper.WriteLine(JsonConvert.SerializeObject(result));
+
 
         }
         [Fact]
@@ -182,14 +237,11 @@ namespace ms_regis.unitTest
 
             //Act
             BuildRequiredComponents(out ValidatorUserServices services);
-            var result = services.ValidateUser(user, out LoginResult loginResult);
+            var result = services.Validate(user);
 
             //Assert
-            Assert.True(result);
-            Assert.True(string.IsNullOrEmpty(loginResult.message));
-            Assert.True(loginResult.code.Equals(200));
-            Assert.True(loginResult.state);
-            _outputHelper.WriteLine(JsonConvert.SerializeObject(loginResult));
+            Assert.True(result.IsValid);
+            _outputHelper.WriteLine(JsonConvert.SerializeObject(result));
         }
         [Fact]
         public void ValidateUser_EmailNOK()

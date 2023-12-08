@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "lvQAGWRtDTzk7Fb3hlF+Oh2OPbajUp+lFOSlicy0QZnV7qDapWcM59eaLoi8NYoN5viiM0N1Q0gvVZbAjITLJg==",
+  "dgSpecHash": "UaKm6BQrc3y89RIatcOw6yckJzaYFedtDH1suI/CC0qNpU0IsyHDipurNXMwADvlnc0txPhP8uwX4KqekxwVAw==",
   "success": true,
-  "projectFilePath": "C:\\WorkSpace\\repos\\ms-regis-users\\ms-regis.unitTest\\ms-regis.unitTest.csproj",
+  "projectFilePath": "C:\\WorkSpace\\PracticaSolid\\ms-regis-users\\ms-regis.unitTest\\ms-regis.unitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DANIEL\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
+    "C:\\Users\\DANIEL\\.nuget\\packages\\fluentvalidation\\11.8.1\\fluentvalidation.11.8.1.nupkg.sha512",
     "C:\\Users\\DANIEL\\.nuget\\packages\\microsoft.codecoverage\\17.7.1\\microsoft.codecoverage.17.7.1.nupkg.sha512",
     "C:\\Users\\DANIEL\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\DANIEL\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
