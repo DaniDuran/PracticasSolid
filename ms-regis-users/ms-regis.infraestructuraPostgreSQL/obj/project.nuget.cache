@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "lBvlAJQ1cWAV60OkuAEafg1SS06bo+5YX+v4JaxOfHAtPzDJ/59wmZIIyP/88+qb+4BTbUtLRwkmCdDyQuDRyw==",
+  "dgSpecHash": "OY7h7b0BKqYmIr68fyaej1DRJIG2CozKyxk06oT1a6muqt2yuPLt5k2hiRgeCJjjlVc7gMDuNHH3FLP5csUnWQ==",
   "success": true,
-  "projectFilePath": "C:\\WorkSpace\\repos\\ms-regis-users\\ms-regis.infraestructuraPostgreSQL\\ms-regis.infraestructuraPostgreSQL.csproj",
+  "projectFilePath": "C:\\WorkSpace\\PracticaSolid\\ms-regis-users\\ms-regis.infraestructuraPostgreSQL\\ms-regis.infraestructuraPostgreSQL.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\DANIEL\\.nuget\\packages\\fluentvalidation\\11.8.1\\fluentvalidation.11.8.1.nupkg.sha512",
     "C:\\Users\\DANIEL\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\DANIEL\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.11\\microsoft.entityframeworkcore.7.0.11.nupkg.sha512",
     "C:\\Users\\DANIEL\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.11\\microsoft.entityframeworkcore.abstractions.7.0.11.nupkg.sha512",

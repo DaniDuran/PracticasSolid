@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WorkSpace\\repos\\ms-regis-users\\ms-regis.infraestructuraSQLServer\\ms-regis.infraestructuraSQLServer.csproj": {}
+    "C:\\WorkSpace\\PracticaSolid\\ms-regis-users\\ms-regis.infraestructuraSQLServer\\ms-regis.infraestructuraSQLServer.csproj": {}
   },
   "projects": {
-    "C:\\WorkSpace\\repos\\ms-regis-users\\ms-regis.domain\\ms-regis.domain.csproj": {
+    "C:\\WorkSpace\\PracticaSolid\\ms-regis-users\\ms-regis.domain\\ms-regis.domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpace\\repos\\ms-regis-users\\ms-regis.domain\\ms-regis.domain.csproj",
+        "projectUniqueName": "C:\\WorkSpace\\PracticaSolid\\ms-regis-users\\ms-regis.domain\\ms-regis.domain.csproj",
         "projectName": "ms-regis.domain",
-        "projectPath": "C:\\WorkSpace\\repos\\ms-regis-users\\ms-regis.domain\\ms-regis.domain.csproj",
+        "projectPath": "C:\\WorkSpace\\PracticaSolid\\ms-regis-users\\ms-regis.domain\\ms-regis.domain.csproj",
         "packagesPath": "C:\\Users\\DANIEL\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpace\\repos\\ms-regis-users\\ms-regis.domain\\obj\\",
+        "outputPath": "C:\\WorkSpace\\PracticaSolid\\ms-regis-users\\ms-regis.domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DANIEL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.8.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -59,14 +65,14 @@
         }
       }
     },
-    "C:\\WorkSpace\\repos\\ms-regis-users\\ms-regis.infraestructuraSQLServer\\ms-regis.infraestructuraSQLServer.csproj": {
+    "C:\\WorkSpace\\PracticaSolid\\ms-regis-users\\ms-regis.infraestructuraSQLServer\\ms-regis.infraestructuraSQLServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpace\\repos\\ms-regis-users\\ms-regis.infraestructuraSQLServer\\ms-regis.infraestructuraSQLServer.csproj",
+        "projectUniqueName": "C:\\WorkSpace\\PracticaSolid\\ms-regis-users\\ms-regis.infraestructuraSQLServer\\ms-regis.infraestructuraSQLServer.csproj",
         "projectName": "ms-regis.infraestructuraSQLServer",
-        "projectPath": "C:\\WorkSpace\\repos\\ms-regis-users\\ms-regis.infraestructuraSQLServer\\ms-regis.infraestructuraSQLServer.csproj",
+        "projectPath": "C:\\WorkSpace\\PracticaSolid\\ms-regis-users\\ms-regis.infraestructuraSQLServer\\ms-regis.infraestructuraSQLServer.csproj",
         "packagesPath": "C:\\Users\\DANIEL\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpace\\repos\\ms-regis-users\\ms-regis.infraestructuraSQLServer\\obj\\",
+        "outputPath": "C:\\WorkSpace\\PracticaSolid\\ms-regis-users\\ms-regis.infraestructuraSQLServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DANIEL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +89,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\WorkSpace\\repos\\ms-regis-users\\ms-regis.domain\\ms-regis.domain.csproj": {
-                "projectPath": "C:\\WorkSpace\\repos\\ms-regis-users\\ms-regis.domain\\ms-regis.domain.csproj"
+              "C:\\WorkSpace\\PracticaSolid\\ms-regis-users\\ms-regis.domain\\ms-regis.domain.csproj": {
+                "projectPath": "C:\\WorkSpace\\PracticaSolid\\ms-regis-users\\ms-regis.domain\\ms-regis.domain.csproj"
               }
             }
           }

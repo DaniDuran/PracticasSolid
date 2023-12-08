@@ -30,12 +30,16 @@ namespace ms_regis.infraestructuraPostgreSQL.Context
         {
             modelBuilder.Entity<User>(entity => { 
                 entity.ToTable("users","system-lab");
-                entity.Property(f=>f.Id).HasColumnName("id");
-                entity.Property(f => f.Name).HasColumnName("name");
-                entity.Property(f => f.LastName).HasColumnName("lastname");
-                entity.Property(f => f.Email).HasColumnName("email");                
-                entity.Property(f => f.Password).HasColumnName("password");
+                entity.Property(f => f.Id).HasColumnName("id").HasComment("llave primaria");
+                entity.Property(f => f.Name).HasColumnName("name").HasComment("Campo nombre");
+                entity.Property(f => f.LastName).HasColumnName("lastname")
+                                                .HasComment("Campo apellido");
+                entity.Property(f => f.Email).HasColumnName("email")
+                                             .HasComment("Campo email de tipo unico");                
+                entity.Property(f => f.Password).HasColumnName("password")
+                                                .HasComment("Campo clave");
                 entity.Property(f => f.BirthDate).HasColumnName("birthdate")
+                                                 .HasComment("Campo nombre")
                                                  .HasColumnType("timestamp without time zone");
                 entity
                       .HasMany(e => e.LoginRecords)

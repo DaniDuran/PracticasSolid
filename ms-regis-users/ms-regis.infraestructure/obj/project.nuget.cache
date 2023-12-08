@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7oCs6Ejdu9rbDSVW6W9WxeeNinK6ktPdKC4y0TEVkmcFp28CF0MujDzNcgyK5DkvWtYPd3YJoHLqcp9b2dW34A==",
+  "dgSpecHash": "ex5FcKUOsgZCV15P3C/FhycRj5dMtN3DJ3kNcSpjILANaHa7obN21SNixliS72T6sXqvInRV+6xn7ndo2/j0/g==",
   "success": true,
-  "projectFilePath": "C:\\WorkSpace\\repos\\ms-regis-users\\ms-regis.infraestructure\\ms-regis.infraestructure.csproj",
+  "projectFilePath": "C:\\WorkSpace\\PracticaSolid\\ms-regis-users\\ms-regis.infraestructure\\ms-regis.infraestructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\DANIEL\\.nuget\\packages\\fluentvalidation\\11.8.1\\fluentvalidation.11.8.1.nupkg.sha512",
     "C:\\Users\\DANIEL\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\DANIEL\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512"
   ],

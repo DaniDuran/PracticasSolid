@@ -2,46 +2,42 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
-using ms_regis.infraestructuraPostgreSQL.Context;
+using ms_regis.infraestructuraSQLServer.Context;
 
 #nullable disable
 
-namespace ms_regis.infraestructuraPostgreSQL.Migrations
+namespace ms_regis.infraestructuraSQLServer.Migrations
 {
-    [DbContext(typeof(SystemContextPostgres))]
-    partial class SystemContextPostgresModelSnapshot : ModelSnapshot
+    [DbContext(typeof(SystemContextSQLServer))]
+    partial class SystemContextSQLServerModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "7.0.11")
-                .HasAnnotation("Relational:MaxIdentifierLength", 63);
+                .HasAnnotation("ProductVersion", "7.0.14")
+                .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
-            NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
+            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
             modelBuilder.Entity("ms_regis.domain.entities.LoginRecord", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("integer")
-                        .HasColumnName("id");
+                        .HasColumnType("int");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<bool>("Access")
-                        .HasColumnType("boolean")
-                        .HasColumnName("access");
+                        .HasColumnType("bit");
 
                     b.Property<DateTime>("Date")
-                        .HasColumnType("timestamp with time zone")
-                        .HasColumnName("date");
+                        .HasColumnType("datetime2");
 
                     b.Property<int>("IdUser")
-                        .HasColumnType("integer")
-                        .HasColumnName("iduser");
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -54,40 +50,28 @@ namespace ms_regis.infraestructuraPostgreSQL.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("integer")
-                        .HasColumnName("id")
-                        .HasComment("llave primaria");
+                        .HasColumnType("int");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime?>("BirthDate")
-                        .HasColumnType("timestamp without time zone")
-                        .HasColumnName("birthdate")
-                        .HasComment("Campo nombre");
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Email")
                         .IsRequired()
-                        .HasColumnType("text")
-                        .HasColumnName("email")
-                        .HasComment("Campo email de tipo unico");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("LastName")
                         .IsRequired()
-                        .HasColumnType("text")
-                        .HasColumnName("lastname")
-                        .HasComment("Campo apellido");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("text")
-                        .HasColumnName("name")
-                        .HasComment("Campo nombre");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Password")
                         .IsRequired()
-                        .HasColumnType("text")
-                        .HasColumnName("password")
-                        .HasComment("Campo clave");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 

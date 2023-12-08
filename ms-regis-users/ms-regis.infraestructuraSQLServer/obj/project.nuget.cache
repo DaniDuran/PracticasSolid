@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ucllute/MBlkxTTrrNyBgC2X1mWi8UYlMVrNk5WZmF6RZlqkEvBZICAkn0Mc9zH9dDggLGmnQBHnjZhcb3vIlg==",
+  "dgSpecHash": "pglGmq1sqFkK4z8NsHTLmiKsFpao9OLEj3fwA0uydFJhumm4De0XQppTTtAykXswzK6m763OTTz3yBHc6pADjQ==",
   "success": true,
-  "projectFilePath": "C:\\WorkSpace\\repos\\ms-regis-users\\ms-regis.infraestructuraSQLServer\\ms-regis.infraestructuraSQLServer.csproj",
+  "projectFilePath": "C:\\WorkSpace\\PracticaSolid\\ms-regis-users\\ms-regis.infraestructuraSQLServer\\ms-regis.infraestructuraSQLServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DANIEL\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\DANIEL\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\DANIEL\\.nuget\\packages\\fluentvalidation\\11.8.1\\fluentvalidation.11.8.1.nupkg.sha512",
     "C:\\Users\\DANIEL\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\DANIEL\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\DANIEL\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

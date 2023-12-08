@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using ms_regis.infraestructuraPostgreSQL.Context;
@@ -11,9 +12,11 @@ using ms_regis.infraestructuraPostgreSQL.Context;
 namespace ms_regis.infraestructuraPostgreSQL.Migrations
 {
     [DbContext(typeof(SystemContextPostgres))]
-    partial class SystemContextPostgresModelSnapshot : ModelSnapshot
+    [Migration("20231208162000_Add comment to table user")]
+    partial class Addcommenttotableuser
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
