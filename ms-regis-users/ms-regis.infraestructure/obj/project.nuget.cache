@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "7oCs6Ejdu9rbDSVW6W9WxeeNinK6ktPdKC4y0TEVkmcFp28CF0MujDzNcgyK5DkvWtYPd3YJoHLqcp9b2dW34A==",
+  "success": true,
+  "projectFilePath": "C:\\WorkSpace\\repos\\ms-regis-users\\ms-regis.infraestructure\\ms-regis.infraestructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DANIEL\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\DANIEL\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

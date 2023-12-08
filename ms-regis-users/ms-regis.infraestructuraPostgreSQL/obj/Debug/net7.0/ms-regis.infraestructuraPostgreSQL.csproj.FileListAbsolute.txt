@@ -1,0 +1,17 @@
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraPostgreSQL\bin\Debug\net7.0\ms-regis.infraestructuraPostgreSQL.deps.json
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraPostgreSQL\bin\Debug\net7.0\ms-regis.infraestructuraPostgreSQL.runtimeconfig.json
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraPostgreSQL\bin\Debug\net7.0\ms-regis.infraestructuraPostgreSQL.dll
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraPostgreSQL\bin\Debug\net7.0\ms-regis.infraestructuraPostgreSQL.pdb
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraPostgreSQL\bin\Debug\net7.0\ms-regis.domain.dll
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraPostgreSQL\bin\Debug\net7.0\ms-regis.domain.pdb
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraPostgreSQL\obj\Debug\net7.0\ms-regis.infraestructuraPostgreSQL.csproj.AssemblyReference.cache
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraPostgreSQL\obj\Debug\net7.0\ms-regis.infraestructuraPostgreSQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraPostgreSQL\obj\Debug\net7.0\ms-regis.infraestructuraPostgreSQL.AssemblyInfoInputs.cache
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraPostgreSQL\obj\Debug\net7.0\ms-regis.infraestructuraPostgreSQL.AssemblyInfo.cs
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraPostgreSQL\obj\Debug\net7.0\ms-regis.infraestructuraPostgreSQL.csproj.CoreCompileInputs.cache
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraPostgreSQL\obj\Debug\net7.0\ms-regis.infraestructuraPostgreSQL.csproj.CopyComplete
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraPostgreSQL\obj\Debug\net7.0\ms-regis.infraestructuraPostgreSQL.dll
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraPostgreSQL\obj\Debug\net7.0\refint\ms-regis.infraestructuraPostgreSQL.dll
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraPostgreSQL\obj\Debug\net7.0\ms-regis.infraestructuraPostgreSQL.pdb
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraPostgreSQL\obj\Debug\net7.0\ms-regis.infraestructuraPostgreSQL.genruntimeconfig.cache
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraPostgreSQL\obj\Debug\net7.0\ref\ms-regis.infraestructuraPostgreSQL.dll

@@ -1,0 +1,17 @@
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraSQLServer\bin\Debug\net7.0\ms-regis.infraestructuraSQLServer.deps.json
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraSQLServer\bin\Debug\net7.0\ms-regis.infraestructuraSQLServer.runtimeconfig.json
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraSQLServer\bin\Debug\net7.0\ms-regis.infraestructuraSQLServer.dll
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraSQLServer\bin\Debug\net7.0\ms-regis.infraestructuraSQLServer.pdb
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraSQLServer\bin\Debug\net7.0\ms-regis.domain.dll
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraSQLServer\bin\Debug\net7.0\ms-regis.domain.pdb
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraSQLServer\obj\Debug\net7.0\ms-regis.infraestructuraSQLServer.csproj.AssemblyReference.cache
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraSQLServer\obj\Debug\net7.0\ms-regis.infraestructuraSQLServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraSQLServer\obj\Debug\net7.0\ms-regis.infraestructuraSQLServer.AssemblyInfoInputs.cache
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraSQLServer\obj\Debug\net7.0\ms-regis.infraestructuraSQLServer.AssemblyInfo.cs
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraSQLServer\obj\Debug\net7.0\ms-regis.infraestructuraSQLServer.csproj.CoreCompileInputs.cache
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraSQLServer\obj\Debug\net7.0\ms-regis.infraestructuraSQLServer.csproj.CopyComplete
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraSQLServer\obj\Debug\net7.0\ms-regis.infraestructuraSQLServer.dll
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraSQLServer\obj\Debug\net7.0\refint\ms-regis.infraestructuraSQLServer.dll
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraSQLServer\obj\Debug\net7.0\ms-regis.infraestructuraSQLServer.pdb
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraSQLServer\obj\Debug\net7.0\ms-regis.infraestructuraSQLServer.genruntimeconfig.cache
+C:\WorkSpace\repos\ms-regis-users\ms-regis.infraestructuraSQLServer\obj\Debug\net7.0\ref\ms-regis.infraestructuraSQLServer.dll
